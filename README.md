@@ -10,13 +10,19 @@ Este programa tem a finalidade de resolver a quinta atividade da lista de exerci
 Prints da tela
 Ao executar: 
 
-![Print 1](https://user-images.githubusercontent.com/86980974/215864279-63e0b26b-aeb4-41ef-891f-c4af5a67cb4d.PNG)
+![Print 1](https://user-images.githubusercontent.com/86980974/215865254-63c361d6-46e3-429e-8010-7f5518337790.PNG)
+
+![print2](https://user-images.githubusercontent.com/86980974/215865276-987c2640-1af8-4dd0-ba66-d1ffffeafc10.PNG)
+
+
+![print3](https://user-images.githubusercontent.com/86980974/215865289-a354119b-e71c-479c-89df-b374bcc94415.PNG)
+
 
 
 Resultado
 
 
-![print2](https://user-images.githubusercontent.com/86980974/215864317-9debe7a7-4d10-40a3-b6f5-7d7a5c974114.PNG)
+![print4](https://user-images.githubusercontent.com/86980974/215865314-45262064-bb90-48ed-abc2-12167ec3726d.PNG)
 
 
 ----------------------------------------------------------------------------------
