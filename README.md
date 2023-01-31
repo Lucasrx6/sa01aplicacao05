@@ -21,34 +21,44 @@ Resultado
 
 ----------------------------------------------------------------------------------
 
-Código da classe principal
-
-package br.com.senaitagua.sa1.app4;
-
+package br.com.senaitagua.sa1.app5;
 import javax.swing.JOptionPane;
+
+import br.com.senaitagua.sa1.bo.CalculaBO;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		CalculaBO fbo = new CalculaBO();
 		
-		double valor1, valor2;
+		String lerJan = JOptionPane.showInputDialog("Janeiro:");
+		String lerFev = JOptionPane.showInputDialog("Fevereiro:");
+		String lerMar = JOptionPane.showInputDialog("Março:");
 		
-		valor1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade de passageiros especiais"));
-		valor2 = 5000/valor1;
+
+		double v1,v2,v3;
+		v1 = Double.parseDouble(lerJan);
+		v2 = Double.parseDouble(lerFev);
+		v3 = Double.parseDouble(lerMar);
 		
-		if(valor1 <= 0){
-			JOptionPane.showMessageDialog(null, "Quantidade incorrento");
-		}
-		else if (valor1 > 17) {
-			JOptionPane.showMessageDialog(null, "Quantidade incorrento");
-		}
+
+		JOptionPane.showMessageDialog(null,fbo.calcularMediaTrim(v1, v2, v3));
 		
-		else {
-			JOptionPane.showMessageDialog(null, "O valor dividido para os passageiros especiais foi de "+ valor2 + " reais");
-		}
 	}
 
 }
+
     
 ----------------------------------------------------------------------------------
+
+Codigo da classe auxiliar
+
+package br.com.senaitagua.sa1.bo;
+public class CalculaBO {	
+	
+	public double calcularMediaTrim(double mes1,double mes2,double mes3) {
+		return (mes1+mes2+mes3)/3;
+	}
+}
